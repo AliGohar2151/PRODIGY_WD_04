@@ -1,3 +1,6 @@
+
+
+
 /* Toggle Navbar */
 
 let menuIcon = document.querySelector('#menu-icon');
@@ -34,18 +37,24 @@ window.onscroll = () => {
 };
 
 
-/*Scroll reveal*/
+// ScrollReveal configuration
 ScrollReveal({
     reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
-})
+});
 
+// Existing ScrollReveal animations
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+ScrollReveal().reveal('.skills .content', { origin: 'top' });
+ScrollReveal().reveal('.skills-details .text', { origin: 'left' });
+ScrollReveal().reveal('.skills-details .boxes', { origin: 'right' });
+ScrollReveal().reveal('.skills-details .box', { origin: 'bottom', interval: 200 });
 
 
 /*Typed Js*/
@@ -56,3 +65,4 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
