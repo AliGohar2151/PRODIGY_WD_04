@@ -123,6 +123,7 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .social-media a {
@@ -287,6 +288,7 @@ span {
 }
 
 .services-container .services-box {
+    height: 400px;
     flex: 1 1 30rem;
     background: var(--snd-bf-color);
     padding: 3rem 2rem 4rem;

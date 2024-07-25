@@ -59,7 +59,7 @@ ScrollReveal().reveal('.skills-details .box', { origin: 'bottom', interval: 200 
 
 /*Typed Js*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Android Developer', 'Python Developer'],
+    strings: ['Web Developer', 'Android Developer', 'UI/UX Designer', 'Python Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
